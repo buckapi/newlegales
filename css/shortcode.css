@@ -1745,11 +1745,12 @@ div#clock span:first-child {
 }
 /** Header style 4 **/
 .header-style-4 .site-header-menu {
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 3;
     padding: 0 50px;
     border-bottom: 1px solid rgba(255, 255, 255,.1);
+    background-color: #0a1d35;
 }
 .header-style-4 .site-navigation ul.navigation > li > a{
     color: var(--pbmit-white-color);
