@@ -393,6 +393,7 @@ body {
 	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 		padding-right: calc(var(--bs-gutter-x) * .8);
 		padding-left: calc(var(--bs-gutter-x) * .8);
+		padding-bottom:40px;
 	} 
 	.sticky-header{
 		position: relative  !important;
