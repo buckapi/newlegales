@@ -64,7 +64,7 @@ img {
     position: relative;
 }
 .experience-section-home1{
-    padding: 115px 0px 0px 0px;
+    padding: 95px 0px 0px 0px;
     background-color: var(--pbmit-white-color);
 }
 .pbmit-timeline {
@@ -599,7 +599,7 @@ img {
     padding: 100px 0px 120px 0px;
 }
 .about-dark-left-section {
-    padding: 100px 110px 40px 0;
+    padding: 100px 60px 40px 0;
 }
 .pbmit-bg-color-blackish .pbmit-heading-desc{
     color: rgba(255, 255, 255,.6);
@@ -652,7 +652,7 @@ img {
     margin-bottom: 50px;
 }
 .about-light-section{
-    padding: 100px 0px 120px 0px;
+    padding: 100px 0px 95px 0px;
 }
 .about-light-section1 .pbmit-element-portfolio-style-1{
     padding: 100px 0 60px;
