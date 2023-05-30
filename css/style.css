@@ -1900,3 +1900,26 @@ input:focus, .form-control:focus {
 .whatsapp-icon {
   margin-top:13px;
 }
+
+.navbar-toggler {
+  font-size: 24px; /* Ajusta el tamaño del botón en el menú móvil */
+  width: 50px;
+  height: 50px;
+  background-color: #b8967e; /* Color de fondo del botón en el menú móvil */
+  border: none;
+  border-radius: 8px;
+  color: #ffffff; /* Color del ícono del botón en el menú móvil */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el botón en el menú de escritorio */
+.closepanel {
+  font-size: 28px; /* Ajusta el tamaño del botón en el menú de escritorio */
+  width: 60px;
+  height: 60px;
+  background-color: #b8967e; /* Color de fondo del botón en el menú de escritorio */
+  border: none;
+  border-radius: 10px;
+  color: #ffffff; /* Color del ícono del botón en el menú de escritorio */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
