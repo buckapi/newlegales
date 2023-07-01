@@ -1889,7 +1889,6 @@ input:focus, .form-control:focus {
   height:60px;
   bottom:70px;
   right:10px;
-  background-color:#25d366;
   color:#FFF;
   border-radius:50px;
   text-align:center;
@@ -1923,3 +1922,10 @@ input:focus, .form-control:focus {
   color: #ffffff; /* Color del ícono del botón en el menú de escritorio */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
+.blue-text {
+    color: blue;
+  }
+  
+  .white-text {
+    color: white;
+  }

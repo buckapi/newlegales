@@ -616,10 +616,17 @@ div#clock span:first-child {
     display: inline-block;
     margin-bottom: 25px;
 }
-.swiper-slide-active .pbmit-service-style-1 h3 a{
+.blue-text {
+    color: blue;
+  }
+  
+  .white-text {
+    color: white;
+  }
+.swiper-slide-active .pbmit-service-style-1 h3 span{
     color: var(--pbmit-blackish-color);
 }
-.pbmit-service-style-1 h3 a{
+.pbmit-service-style-1 h3 span{
     color: var(--pbmit-white-color);
 }
 .pbmit-service-content p{
