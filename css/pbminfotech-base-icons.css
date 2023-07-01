@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'pbminfotech-base-icons';
-  src: url('../fonts/pbminfotech-base-icons.eot?83333307');
-  src: url('../fonts/pbminfotech-base-icons.eot?83333307#iefix') format('embedded-opentype'),
-       url('../fonts/pbminfotech-base-icons.woff2?83333307') format('woff2'),
-       url('../fonts/pbminfotech-base-icons.woff?83333307') format('woff'),
-       url('../fonts/pbminfotech-base-icons.ttf?83333307') format('truetype'),
-       url('../fonts/pbminfotech-base-icons.svg?83333307#pbminfotech-base-icons') format('svg');
+  src: url('../fonts/pbminfotech-base-icons.eot');
+  src: url('../fonts/pbminfotech-base-icons.eot?') format('embedded-opentype'),
+       url('../fonts/pbminfotech-base-icons.woff2') format('woff2'),
+       url('../fonts/pbminfotech-base-icons.woff') format('woff'),
+       url('../fonts/pbminfotech-base-icons.ttf') format('truetype'),
+       url('../fonts/pbminfotech-base-icons.svg#pbminfotech-base-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
