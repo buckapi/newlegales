@@ -810,7 +810,7 @@ img {
     background-color: var(--pbmit-blackish-color);
 }
 .widget .download .item-download:last-child a {
-    background-color: var(--pbmit-light-color);
+    background-color: #bfb26c;
 }
 .widget .download .item-download:last-child a:hover {
     background-color: var(--pbmit-blackish-color);
