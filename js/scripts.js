@@ -292,7 +292,7 @@
   Whatsapp
   -------------------------------------*/
   // Agregar el botón de WhatsApp al final del cuerpo del documento
-$('body').append('<a href="https://api.whatsapp.com/send?phone=573026231220&text=Hola%21%20Quisiera%20m%C3%A1s%20contratar%20un%20defensor" target="_blank" class="whatsapp-button"><i class="fa fa-whatsapp"></i></a>');
+$('body').append('<a href="whatsapp://send?phone=573026231220&text=Hola%21%20Quisiera%20m%C3%A1s%20contratar%20un%20defensor" target="_blank" class="whatsapp-button"><i class="fa fa-whatsapp"></i></a>');
 
 // Seleccionar el botón de WhatsApp
 var whatsappBtn = $('.whatsapp-button');
@@ -304,12 +304,13 @@ $(window).scroll(function() {
     } else {
         whatsappBtn.removeClass('show');
     }
-});
+});  
+
 
 // Manejar el clic en el botón de WhatsApp para abrir el enlace de WhatsApp
 whatsappBtn.on('click', function(e) {
     e.preventDefault();
-    window.open('https://api.whatsapp.com/send?phone=573026231220&text=Hola%21%20Quisiera%20m%C3%A1s%20contratar%20un%20defensor', '_blank');
+    window.open('whatsapp://send?phone=573026231220&text=Hola%21%20Quisiera%20m%C3%A1s%20contratar%20un%20defensor', '_blank');
 });
   /*-------------------------------------
   Header Search Form
