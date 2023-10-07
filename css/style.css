@@ -1885,20 +1885,20 @@ input:focus, .form-control:focus {
 
 .whatsapp {
   position:fixed;
-  width:60px;
-  height:60px;
-  bottom:70px;
-  right:10px;
+  width:45px;
+  height:45px;
+  bottom:40px;
+  right:20px;
   color:#FFF;
-  border-radius:50px;
+  border-radius:50%;
   text-align:center;
-  font-size:30px;
+  font-size:16px;
   z-index:100;
 }
 
-.whatsapp-icon {
+/*.whatsapp-icon {
   margin-top:13px;
-}
+}*/
 
 .navbar-toggler {
   font-size: 24px; /* Ajusta el tamaño del botón en el menú móvil */
@@ -1929,3 +1929,54 @@ input:focus, .form-control:focus {
   .white-text {
     color: white;
   }
+  /* Estilo para pantalla grande (PC) */
+.pbmit-right-box {
+   display: block; /* Asegura que se muestre en bloque en PC */
+}
+
+/* Estilo para pantalla pequeña (móvil) */
+@media (max-width: 767px) {
+   .pbmit-right-box {
+      display: block; /* Asegura que se muestre en bloque en móvil */
+      text-align: center; /* Centra el botón en móvil si es necesario */
+      margin-top: 10px; /* Espacio superior en móvil */
+   }
+}
+
+/* Estilo base para el botón */
+.pbmit-header-button1 {
+    font-size: 20px;
+    background-color: #bfb26c;
+    color: #0a1d35;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para pantalla pequeña (móvil) */
+@media (max-width: 767px) {
+   .pbmit-header-button1 {
+      font-size: 20px;
+      width: auto;
+      height: auto;
+      border-radius: 8px;
+      line-height: 35px;
+      cursor: pointer;
+      margin-right: 10px;
+   }
+
+   /* Ocultar el texto en la vista móvil */
+   .pbmit-header-button1 .pbmit-header-button1-text-1 {
+      display: none;
+   }
+}
+
+
+   /* Puedes agregar más ajustes de estilo si es necesario para dispositivos móviles */
+}

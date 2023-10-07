@@ -870,6 +870,35 @@ body .scroll-to-top:hover {
     background-color: var(--pbmit-secondary-color);
 }
 
+/* Estilo para el botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    z-index: 200;
+    opacity: 0;
+    bottom: 70px; /* Ajusta la posición vertical según tu preferencia */
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px; /* Ajusta la altura del texto verticalmente centrado */
+    font-size: 28px; /* Tamaño del ícono de WhatsApp */
+    background-color: #198754;
+    text-align: center;
+    border: 3px solid #eeeeee;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+/* Estilo cuando el botón de WhatsApp es visible */
+.whatsapp-button.show {
+    opacity: 1;
+}
+
+/* Estilo al pasar el mouse sobre el botón de WhatsApp */
+.whatsapp-button:hover {
+    background-color: var(--pbmit-secondary-color); /* Puedes ajustar el color de fondo al pasar el mouse */
+}
+
+
 /*----------------------------------------*/
 /*  10 - Search Box
 /*----------------------------------------*/
