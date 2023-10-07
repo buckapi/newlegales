@@ -877,9 +877,9 @@ body .scroll-to-top:hover {
     opacity: 0;
     bottom: 70px; /* Ajusta la posición vertical según tu preferencia */
     right: 20px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px; /* Ajusta la altura del texto verticalmente centrado */
+    width: 45px;
+    height: 45px;
+    line-height: 40px; /* Ajusta la altura del texto verticalmente centrado */
     font-size: 28px; /* Tamaño del ícono de WhatsApp */
     background-color: #198754;
     text-align: center;
@@ -897,6 +897,7 @@ body .scroll-to-top:hover {
 .whatsapp-button:hover {
     background-color: var(--pbmit-secondary-color); /* Puedes ajustar el color de fondo al pasar el mouse */
 }
+
 
 
 /*----------------------------------------*/
